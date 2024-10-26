@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Integrantes del Grupo 05</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2 class="title">Integrantes del Grupo 05</h2>
+    <div th:each="integrante, iterStat : ${integrantes}" class="list-group-item">
+        <span class="number" th:text="${iterStat.index + 1}"></span>
+        <span class="name" th:text="${integrante}"></span>
+    </div>
+</div>
+</body>
+</html>
+

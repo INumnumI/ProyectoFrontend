@@ -1,0 +1,63 @@
+/* Estilos para login.html */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f6fc;
+}
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.login-title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+.btn-primary {
+    width: 100%;
+}
+.alert-danger {
+    margin-top: 1rem;
+}
+
+/* Estilos para detalle.html */
+.container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.title {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+.list-group-item {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-group-item .number {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+}
+
+.list-group-item .name {
+    color: #333;
+}
