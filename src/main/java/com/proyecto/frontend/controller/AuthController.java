@@ -24,6 +24,11 @@ public class AuthController {
         return "login";
     }
 
+    @GetMapping("/")
+    public String redirectToLogin() {
+        return "redirect:/login";
+    }
+
     // Maneja la lógica de autenticación
     @PostMapping("/authenticate")
     public String authenticate(
